@@ -5,7 +5,8 @@
 }
 
 body {
-
+ background-color: #ecf0f1;
+  place-items: center;
   color: #383838;
   display: grid;
   height: 100vh;
@@ -19,16 +20,6 @@ body {
   display: flex;
   height: 100px;
   width: 500px;
-  place-items: center;
- margin: auto;
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-    
-    opacity: 0;
-    animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
-    animation-delay: .8s; 
 }
 
 .social-links:hover > li {
@@ -55,36 +46,26 @@ body {
 .social-links svg {
   transition: 0.2s ease-in-out;
   pointer-events: none;
-
+  height: 40px;
+  width: 40px;
 }
 
-.social-links li.epic {
- 
+.social-links li.google {
+  background-color: #ea4335;
 }
 
-.social-links li.origin {
-
+.social-links li.facebook {
+  background-color: #3f51b5;
 }
 
 .social-links li.twitter {
-  
+  background-color: #03a9f4;
 }
 
 .social-links li.yahoo {
-
+  background-color: #410093;
 }
 
-.social-links p.hehe {
-
-}
-
-.social-links li.btc{
-  width: 280px;
-  line-height: .9;
-    font-weight: bold;
-    display: inline-block;
-    font-size: 9rem;
-    opacity: 0;
-    animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
-    animation-delay: .8s; }
+.social-links li.windows {
+  background-color: #2499ff;
 }
